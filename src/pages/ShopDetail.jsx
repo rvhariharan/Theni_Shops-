@@ -230,7 +230,7 @@ const ShopDetail = () => {
               </div>
               <h4 className="font-bold text-lg text-gray-800">Services</h4>
             </div>
-            <div className="flex gap-3 overflow-x-auto pb-2">
+            <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
               {shop.services.map((svc, i) => (
                 <div key={i} className="min-w-[160px] h-20 bg-white rounded-xl border border-gray-100 flex items-center justify-center px-3 text-sm font-semibold text-gray-700 shadow-sm">
                   {svc}
